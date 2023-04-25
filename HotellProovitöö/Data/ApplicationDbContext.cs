@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using HotellProovitöö.Data.Models;
 
 namespace HotellProovitöö.Data
 {
@@ -10,6 +9,6 @@ namespace HotellProovitöö.Data
 			: base(options)
 		{
 		}
-		public DbSet<HotellProovitöö.Data.Models.User> User { get; set; } = default!;
+		public DbSet<Models.User> User { get; set; } = default!;
 	}
 }

@@ -2,7 +2,7 @@
 {
 	public class BookedRoom
 	{
-		Guid Id { get; set; }
+		int Id { get; set; }
 
 		public HotelRoom Room { get; set; }
 
